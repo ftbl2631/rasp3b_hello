@@ -125,6 +125,6 @@ mod print;
 /// - Only a single core must be active and running this function.
 unsafe fn kernel_init() -> ! {
     println!("Hello from Rust!");
-
+    println!("This exmple is for display only");
     panic!("Stopping here.")
 }
