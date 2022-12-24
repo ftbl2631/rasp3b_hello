@@ -1,0 +1,14 @@
+[target.aarch64-unknown-none-softfloat]
+rustflags = [
+  "-C", "target-cpu=cortex-a53",
+#  "-C", "link-arg=-Tlink.x",
+#  "-C", "link-arg=-Tmemory.x"
+  "-C", "link-arg=-Tsrc/bsp/raspberrypi/kernel.ld",
+]
+# runner = "riscv64-unknown-elf-gdb -q -x openocd.gdb"
+# runner = "riscv32-unknown-elf-gdb -q -x openocd.gdb"
+
+[build]
+target = "aarch64-unknown-none-softfloat"
+
+
