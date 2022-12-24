@@ -14,7 +14,7 @@
   "rust-analyzer.lens.debug": false,
   "rust-analyzer.lens.run": false,
   "rust-analyzer.linkedProjects": [
-    "/home/fab/sharefile/ExSD/projects/rust_prac/03_hacky_hello_world/Cargo.toml",
+    "/home/fab/sharefile/projects/practice/rust_lang/rasp3b_hello/Cargo.toml",
   ],
   "rust-analyzer.updates.askBeforeDownload": false
 }
